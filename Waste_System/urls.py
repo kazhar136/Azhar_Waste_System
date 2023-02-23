@@ -20,5 +20,5 @@ from api import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('waste/', views.WasteAPIView.as_view()),
-    path('auth/', include('rest_framework.urls')),
+    #path('auth/', include('rest_framework.urls')),
 ]
